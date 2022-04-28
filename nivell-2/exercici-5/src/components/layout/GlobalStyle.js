@@ -14,6 +14,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   #root {
-    min-height: 100%;
+    height: 100%;
   }
 `;
