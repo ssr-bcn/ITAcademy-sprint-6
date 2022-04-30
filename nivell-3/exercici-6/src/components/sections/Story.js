@@ -21,7 +21,7 @@ export default function Story() {
   }
 
   const sceneList = escenes.map( (obj, index) => {
-    return <PWithBorder key={index} isActive={actualPosition === index}>
+    return  <PWithBorder key={index} isActive={actualPosition === index}>
               <Escena escena={obj.txt} />
             </PWithBorder>;
   });
